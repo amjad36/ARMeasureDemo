@@ -12,6 +12,7 @@
 		2949E2821FCC4769003B2C66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2949E2801FCC4769003B2C66 /* Main.storyboard */; };
 		2949E2841FCC4769003B2C66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2949E2831FCC4769003B2C66 /* Assets.xcassets */; };
 		2949E2871FCC4769003B2C66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2949E2851FCC4769003B2C66 /* LaunchScreen.storyboard */; };
+		2949E28F1FCC5F3B003B2C66 /* SphereNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2949E28E1FCC5F3B003B2C66 /* SphereNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		2949E2831FCC4769003B2C66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2949E2861FCC4769003B2C66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2949E2881FCC4769003B2C66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2949E28E1FCC5F3B003B2C66 /* SphereNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphereNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				2949E27C1FCC4769003B2C66 /* AppDelegate.swift */,
 				2949E27E1FCC4769003B2C66 /* ViewController.swift */,
+				2949E28E1FCC5F3B003B2C66 /* SphereNode.swift */,
 				2949E2801FCC4769003B2C66 /* Main.storyboard */,
 				2949E2831FCC4769003B2C66 /* Assets.xcassets */,
 				2949E2851FCC4769003B2C66 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			files = (
 				2949E27F1FCC4769003B2C66 /* ViewController.swift in Sources */,
 				2949E27D1FCC4769003B2C66 /* AppDelegate.swift in Sources */,
+				2949E28F1FCC5F3B003B2C66 /* SphereNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +281,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6L3T8BHYTU;
 				INFOPLIST_FILE = ARMeasureDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hcl.ARMeasureDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -293,7 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6L3T8BHYTU;
 				INFOPLIST_FILE = ARMeasureDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hcl.ARMeasureDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
